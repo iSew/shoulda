@@ -53,14 +53,14 @@ Then /^the output should indicate that (\d+) tests were run successfully$/ do |n
     steps %{
       Then the output should contain:
       """
-      3 runs, 3 assertions, 0 failures, 0 errors
+      #{number} runs, #{number} assertions, 0 failures, 0 errors
       """
     }
   else
     steps %{
       Then the output should contain:
       """
-      3 tests, 3 assertions, 0 failures, 0 errors
+      #{number} tests, #{number} assertions, 0 failures, 0 errors
       """
     }
   end
