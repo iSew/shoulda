@@ -24,7 +24,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency('appraisal',   '~> 2.1')
   s.add_development_dependency("rails", "4.2.6")
   s.add_development_dependency("sqlite3", "~> 1.3.11")
-  s.add_development_dependency("rspec-rails", "~> 3.4")
   s.add_development_dependency("cucumber", "~> 1.0")
   s.add_development_dependency("aruba", "~> 0.14.1")
 end
